@@ -23,7 +23,7 @@ function Testimonaials1() {
     } = usePrevNextButtons(emblaApi)
 
     return (
-        <div className="bg-gradient-to-b from-light to-white py-10 md:pt-20" id="testimonaials">
+        <div className="bg-gradient-to-b from-light to-white py-10 md:pt-20" id="testimonial_1">
             <SectionContainer>
                 <div className="flex justify-center items-center mb-4">
 
@@ -40,14 +40,14 @@ function Testimonaials1() {
                                 <div className="embla__slide bg-white mx-2 shadow-custom-lg rounded-md p-4 shadow border border-gray-100" key={testimonial.id}>
                                     <div className="relative">
                                         <img className="absolute top-0 left-0 h-12 pt-4" src="/images/testimonial/testimonial_quote.png" alt="testimonial quote" />
-                                        <p className="description_bold font-urbanist pt-16">
+                                        <p className="description_bold pt-16">
                                             {testimonial.review}
                                         </p>
                                         <div className="flex items-end gap-2">
                                             <img className='h-12' src={testimonial.image} alt="user avatar" />
                                             <div>
                                                 <h1 className="text-base text-title mt-4 font-bold">{testimonial.name}</h1>
-                                                <p className="description_lite font-urbanist mb-2">
+                                                <p className="description_lite mb-2">
                                                     {testimonial.designation}
                                                 </p>
                                             </div>
