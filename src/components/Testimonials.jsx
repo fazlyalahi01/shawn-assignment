@@ -39,7 +39,7 @@ function Testimonaials1() {
                             {testimonialData.map((testimonial) => (
                                 <div className="embla__slide bg-white mx-2 shadow-custom-lg rounded-md p-4 shadow border border-gray-100" key={testimonial.id}>
                                     <div className="relative">
-                                        <img className="absolute top-0 left-0 h-12 pt-4" src="../../public/images/testimonial/testimonial_quote.png" alt="testimonial quote" />
+                                        <img className="absolute top-0 left-0 h-12 pt-4" src="/images/testimonial/testimonial_quote.png" alt="testimonial quote" />
                                         <p className="description_bold font-urbanist pt-16">
                                             {testimonial.review}
                                         </p>
